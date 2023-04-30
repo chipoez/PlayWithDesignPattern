@@ -2,7 +2,7 @@ package decorator.wear;
 
 public class Person implements ICharacter{
 
-    private String name;
+    private final String name;
     public Person (String name){
         this.name = name;
     }
