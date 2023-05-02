@@ -1,21 +1,16 @@
 package strategy.shopCash;
 
+import decorator.cash.CashReturnRebate;
+
 public class CashContext {
     private AbstractCash ac;
     public CashContext(int cashType){
-        switch (cashType){
-            case 1:
-                this.ac = new CashNormal();
-                break;
-            case 2:
-                this.ac = new CashRebate(0.8);
-                break;
-            case 3:
-                this.ac = new CashRebate(0.7);
-                break;
-            case 4:
-                this.ac = new CashReturn(300,100);
-                break;
+        switch (cashType) {
+            case 1 -> this.ac = new CashNormal();
+            case 2 -> this.ac = new CashRebate(0.8);
+            case 3 -> this.ac = new CashRebate(0.7);
+            case 4 -> this.ac = new CashReturn(300, 100);
+            case 5 -> this.ac = new CashReturnRebate(0.8, 300, 100);
         }
     }
     public double getResult(double price, int num){
