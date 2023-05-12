@@ -1,4 +1,4 @@
-package decorator.cash;
+package strategy.shopCash;
 
 import strategy.shopCash.AbstractCash;
 

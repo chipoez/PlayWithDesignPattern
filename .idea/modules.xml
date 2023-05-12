@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/changeDB/AbstractFactory.iml" filepath="$PROJECT_DIR$/changeDB/AbstractFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Adapter/Adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composite/Composite.iml" filepath="$PROJECT_DIR$/Composite/Composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo/Demo.iml" filepath="$PROJECT_DIR$/Demo/Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Memo/Memo.iml" filepath="$PROJECT_DIR$/Memo/Memo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PlayWithDesignPattern.iml" filepath="$PROJECT_DIR$/PlayWithDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PublishSubscribe/PublishSubscribe.iml" filepath="$PROJECT_DIR$/PublishSubscribe/PublishSubscribe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
+    </modules>
+  </component>
+</project>

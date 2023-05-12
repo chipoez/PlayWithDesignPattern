@@ -1,7 +1,5 @@
 package strategy.shopCash;
 
-import decorator.cash.CashReturnRebate;
-
 public class CashContext {
     private AbstractCash ac;
     public CashContext(int cashType){
